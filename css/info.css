@@ -1,0 +1,140 @@
+body {
+  background-color: white;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.carInfo>img {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.bar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  background: #ced7e9;
+  padding: 15px;
+  padding-bottom: 18px;
+}
+
+.bar>h1:nth-child(1) {
+  padding-top: 5px;
+}
+
+.bar>h1>a {
+  font-size: 70%;
+  background-color: #a7c1e4;
+  color: black;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.bar>h1>a:hover {
+  transition: 0.3s;
+  font-size: 70%;
+  background-color: #ced7e9;
+  color: black;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.allbox {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.box {
+  width: 32%;
+  height: auto;
+  padding: 20px;
+  font-size: 170%;
+  background: #e5e7ea;
+  border: 1px solid rgb(198, 198, 198);
+}
+
+.box:nth-child(1) {
+  border-bottom-right-radius: 10px;
+}
+
+.box:nth-child(2) {
+  border-bottom-left-radius: 10px;
+  font-size: 175%;
+}
+
+.box>p:nth-child(2) {
+  color: rgb(99, 99, 99);
+}
+
+.infos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 400px;
+  margin: auto;
+}
+
+.infobox {
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  background-color: aliceblue;
+  border-radius: 50px;
+}
+
+.infobox>p:nth-child(1) {
+  margin-top: 25.5%;
+  color: rgb(168, 168, 168);
+  font-family: monospace;
+}
+
+.box>p:nth-child(1) {
+  font-size: 150%;
+  text-align: center;
+}
+
+.kopen {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #e5e7ea;
+  border-top: 1px solid rgb(198, 198, 198);
+  width: 100%;
+  font-size: 200%;
+  margin-top: 20px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.kopen>h1>a {
+  font-size: 40%;
+  background-color: #9dbde6;
+  color: black;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.kopen>h1>a:hover {
+  transition: 0.3s;
+  font-size: 40%;
+  background-color: #e5e7ea;
+  color: black;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.kopen>p:nth-child(1) {
+  font-size: 150%;
+}

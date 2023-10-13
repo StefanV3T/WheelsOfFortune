@@ -1,0 +1,28 @@
+body {
+    background-image: url('../images/JEEPfoto.png.jpg');
+}
+.achtergrond {
+    width: 100%;
+    position: fixed;
+    z-index: 0;
+}
+
+.userInfo {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 10%;
+    align-items: center;
+    background: #ffffff88;
+    font-family: fantasy;
+    font-size: large;
+    position: fixed;
+    z-index: 1;
+}
+
+.iets {
+    display: flex;
+    object-fit: fill;
+    z-index: -1;
+}

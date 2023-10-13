@@ -1,0 +1,35 @@
+body {
+    font-size: 120%;
+}
+
+#img {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+}
+
+table {
+    border-spacing: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+.cart {
+
+    width: 50%;
+    margin: auto;
+    text-align: right;
+}
+
+.cart p {
+    margin-right: 12%;
+
+}
+
+.cart h1 {
+    text-align: center;
+}
+
+.totaal {
+    display: flex;
+}

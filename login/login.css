@@ -1,0 +1,52 @@
+body {
+    background-image: url(loginpage.jpg);
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+    margin-top: 10%;
+    padding: 0;
+}
+
+#text{
+
+    height: 25px;
+    border-radius: 5px;
+    padding: 4px;
+    border: solid thin black;
+    width: 100%;
+}
+
+#button{
+
+    padding: 10px;
+    width: 100px;
+    color: white;
+    background-color:  rgba(21, 177, 230, 0.842);
+    border: none;
+}
+
+#button:hover {
+    transition: 0.3s;
+    background-color: rgba(187, 218, 228, 0.842);
+    color: black;
+}
+
+#box {
+    border-radius: 15px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.597);
+    width: 300px;
+    padding: 20px;
+    padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+    #center {
+        text-align: center;
+    }
+    
+    label {
+        font-size: 130%;
+}
